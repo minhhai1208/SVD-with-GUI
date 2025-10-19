@@ -55,7 +55,7 @@ Where:
 - $A_k = U_k \Sigma_k V_k^T$ is the reconstructed low-rank approximation that preserves the most visually significant features
 
 **Memory saving:**  
-Instead of storing all \(m \cdot n\) pixels, we now only store:
+Instead of storing all $m \cdot n$ pixels, we now only store:
 
 $$
 k \cdot m + k \cdot n + k = k(m+n+1)
