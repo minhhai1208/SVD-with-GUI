@@ -50,9 +50,9 @@ $$
 
 Where:
 
-- \(U_k \in \mathbb{R}^{m \times k}\), \(\Sigma_k \in \mathbb{R}^{k \times k}\), \(V_k^T \in \mathbb{R}^{k \times n}\)
-- \(k \ll \min(m, n)\), reducing storage from \(m \cdot n\) to \(k \cdot (m + n + 1)\)
-- The reconstructed matrix \(A_k\) is a **low-rank approximation** that preserves the most visually significant features.
+- $U_k \in \mathbb{R}^{m \times k}$, $\Sigma_k \in \mathbb{R}^{k \times k}$, $V_k^T \in \mathbb{R}^{k \times n}$
+- $k \ll \min(m, n)$, reducing storage from $m \cdot n$ to $k \cdot (m + n + 1)$
+- $A_k = U_k \Sigma_k V_k^T$ is the reconstructed low-rank approximation that preserves the most visually significant features
 
 **Memory saving:**  
 Instead of storing all \(m \cdot n\) pixels, we now only store:
