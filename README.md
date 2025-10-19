@@ -1,6 +1,6 @@
 # 🖼️ SVD Image Compression GUI
 
-![SVD GUI Screenshot](https://github.com/minhhai1208/SVD-with-GUI/blob/main/Screenshot%202025-10-19%20090327.png)
+![SVD GUI Screenshot](https://github.com/minhhai1208/Portfolio-Data-Science/blob/main/Screenshot%202025-10-19%20090327.png)
 
 ## 📘 Overview
 This project demonstrates how **Singular Value Decomposition (SVD)** — a fundamental concept in **Linear Algebra** — can be applied to **image compression**.  
