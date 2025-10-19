@@ -117,9 +117,3 @@ This ensures that the reconstructed image **retains most of the visual content**
 
 ---
 
-## 🚀 Installation & Usage
-
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/yourusername/svd-image-compression-gui.git
-cd svd-image-compression-gui
