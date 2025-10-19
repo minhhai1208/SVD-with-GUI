@@ -32,11 +32,11 @@ $$
 
 Where:
 
-- \(A \in \mathbb{R}^{m \times n}\) is the original grayscale image matrix, with pixel intensities as entries.
-- \(U \in \mathbb{R}^{m \times m}\) contains the **left singular vectors** (orthonormal columns).
-- \(\Sigma \in \mathbb{R}^{m \times n}\) is a **diagonal matrix** of singular values 
-  \(\sigma_1 \ge \sigma_2 \ge \dots \ge \sigma_r \ge 0\), representing the "energy" or importance of each component.
-- \(V^T \in \mathbb{R}^{n \times n}\) contains the **right singular vectors** (orthonormal rows).
+- $A \in \mathbb{R}^{m \times n}$ is the original grayscale image matrix, with pixel intensities as entries.
+- $U \in \mathbb{R}^{m \times m}$ contains the left singular vectors (orthonormal columns).
+- $\Sigma \in \mathbb{R}^{m \times n}$ is a diagonal matrix of singular values 
+  $\sigma_1 \ge \sigma_2 \ge \dots \ge \sigma_r \ge 0$, representing the "energy" or importance of each component.
+- $V^T \in \mathbb{R}^{n \times n}$ contains the right singular vectors (orthonormal rows).
 
 ---
 
