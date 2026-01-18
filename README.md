@@ -1,8 +1,8 @@
-# 🖼️ SVD Image Compression GUI
+# SVD Image Compression GUI
 
 ![SVD GUI Screenshot](https://github.com/minhhai1208/Portfolio-Data-Science/blob/main/Screenshot%202025-10-19%20090327.png)
 
-## 📘 Overview
+## Overview
 This project demonstrates how **Singular Value Decomposition (SVD)** — a fundamental concept in **Linear Algebra** — can be applied to **image compression**.  
 It features an **interactive GUI built with Tkinter**, allowing users to:
 - Upload any grayscale image
@@ -13,18 +13,18 @@ Through this tool, users can intuitively understand how **low-rank approximation
 
 ---
 
-## ⚙️ Features
-✅ **Upload and preview** any image (JPG, PNG, etc.)  
-✅ **Two modes of reconstruction:**
+## Features
+ **Upload and preview** any image (JPG, PNG, etc.)  
+ **Two modes of reconstruction:**
    - **Rank-based**: Keep the top *k* singular values  
    - **Error-based**: Keep enough singular values to retain a chosen % of image energy  
-✅ **Real-time visualization** of original and reconstructed images  
-✅ **Zoom** to inspect details of compressed images  
-✅ **Save** the reconstructed image to disk  
+ **Real-time visualization** of original and reconstructed images  
+ **Zoom** to inspect details of compressed images  
+ **Save** the reconstructed image to disk  
 
 ---
 
-## 🧠 How It Works (Mathematical Explanation)
+## How It Works (Mathematical Explanation)
 
 Singular Value Decomposition (SVD) is a linear algebra technique that factorizes a matrix \(A\) (here, the image) into three matrices:
 
@@ -42,7 +42,7 @@ Where:
 
 ---
 
-### 1️⃣ Rank-based Reconstruction
+### Rank-based Reconstruction
 
 To reduce memory while preserving the most important information, we **truncate the SVD** to the top \(k\) singular values:
 
@@ -67,7 +67,7 @@ This is much smaller than the original image size if \(k\) is small.
 
 ---
 
-### 2️⃣ Error-based Reconstruction
+### Error-based Reconstruction
 
 Alternatively, we can choose a **target percentage of information retained**. The "energy" of the image is defined as the sum of squared singular values:
 
@@ -99,7 +99,7 @@ This ensures that the reconstructed image **retains most of the visual content**
 
 ---
 
-### 3️⃣ Why it Works
+### Why it Works
 
 - Large singular values capture the **main structures, edges, and textures** of the image.
 - Truncating small singular values removes **noise and fine details**, reducing memory usage.
@@ -107,7 +107,7 @@ This ensures that the reconstructed image **retains most of the visual content**
 
 
 
-## 🧩 Tech Stack
+## Tech Stack
 
 | Library | Purpose |
 |----------|----------|
